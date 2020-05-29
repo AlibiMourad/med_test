@@ -1,0 +1,67 @@
+body {
+  padding: 8px;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-color: #0092D0;
+}
+.user{
+   width: 295px; 
+   height: 295px;
+   border-radius: 50%;
+   border: 5px solid rgba(255,255,255,0.38);
+}
+.primary{
+    color:  #0092D0;
+}
+.bg-primary{
+    background-color: #0092D0 !important;
+}
+#info span{
+    color: #0092D0;
+}
+.services{
+  background-color: #0092D0;
+}
+.service-item{
+  border-right: solid 3px #FFF;
+  border-bottom: solid 3px #FFF;
+  border-radius: 10px;
+  
+}
+
+.video {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+.play{
+      top: 50%;
+      left: 50%;
+      position: absolute;
+      transform: translate(-50%, -50%);
+    
+}
+
+footer{
+  height: 60px;
+  background-color: #00234b;
+
+}
+
+footer p{padding:15px 15px;margin:0;}
+
+
