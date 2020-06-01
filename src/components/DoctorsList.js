@@ -78,8 +78,11 @@ const DoctorsList = ({ doctors }) => {
                     </div>
                 </div>
                 <div class="col-sm">
-                    <img width="100%" src="img/user.png" class="" alt="Dr Samantha Smith"></img>
-                    <h4 class="mb-0 text-center"><span class="font-weight-blod">Samantha Smith -</span><small>Gynecologist</small></h4>
+                    <img width="100%" src="img/user.png" class="" ></img>
+                    <h4 class="mb-0 text-center"><span class="font-weight-blod">
+            {doctors.map(doctor => <>{doctor.first_name} {doctor.last_name}</>)} - </span><small>
+			{doctors.map(doctor => <>{doctor.special}</>)}
+			</small></h4>
 
                 </div>
 
